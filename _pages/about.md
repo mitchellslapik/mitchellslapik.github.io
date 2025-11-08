@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  <a href='https://www.nature.com/articles/nature20563'>Biorhythms</a>, <a href='https://onlinelibrary.wiley.com/doi/full/10.1111/ele.13662'>macroecology & evolution</a>, <a href='https://osf.io/profile/'>open science</a>, <a href='https://www.youtube.com/channel/UCP8ITIDaFZHW68z7KaTyDew'>shorebirds</a>.
+subtitle:  MD/PhD Candidate & NIH Fellow @ McGovern Medical School
 profile:
   align: right
   image: me_&_kohout_bw_kohout-pop_grey.jpg
@@ -14,15 +14,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I strive to understand the World within and around me. 
-
-As a **scientist**, I use birds, mainly shorebirds, to explore 
-- <a href='https://www.nature.com/articles/s41598-019-41223-z'>rhythms of parental care</a> and <a href='https://doi.org/10.3389/fevo.2019.00093'>how such rhythms emerge</a>, 
--  <a href='https://www.nature.com/articles/nature20563'>within- and between-species differences in rhythmicities</a> and what may drive such differences, as well as
-- <a href='https://onlinelibrary.wiley.com/doi/full/10.1111/ele.13662'>distribution and evolution of traits across the globe</a>
-
-**Currently**, I am investigating global similarities in shorebird parental care, global differences in uniparental incubation of shorebirds, biorhythms of red knots and drivers of global variation in the song of songbirds.  
-
-I am an **associate professor** at   [Czech University of Life Sciences Prague](https://www.czu.cz/en) and **collaborate** with [scientists and institutions across the globe](https://doi.org/10.1126/science.aaw8529). 
-
-I am a regular contributor to <a href='https://www.inaturalist.org/people/1583651'>iNaturalist</a>. 
+Hello! I'm an MD/PhD student at <a href="https://med.uth.edu/">McGovern Medical School</a> interested in psychiatry and computational neuroscience. Originally from Austin, I studied philosophy at <a href="https://www.swarthmore.edu/">Swarthmore College</a>, and worked as a research assistant at <a href="https://www.jhu.edu/">Johns Hopkins</a>. Then, I came to the <a href="https://gsbs.uth.edu/mdphd/">Medical Scientist Training Program</a> at UT, where I have been supported by the NIH through a <a href="https://researchtraining.nih.gov/programs/fellowships/F30">National Research Service Award</a> and a <a href="https://gsbs.uth.edu/ccts-t32/">Translational and Clinical Science Predoctoral Fellowship</a>. Ultimately, I hope to use computational neuroscience to better understand and treat psychiatric disorders. Find more information below:
