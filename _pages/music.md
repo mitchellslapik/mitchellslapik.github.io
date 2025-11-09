@@ -6,12 +6,22 @@ nav: true
 nav_order: 4
 ---
 
-
 <!-- Music Section -->
-<div class="music-container" style="text-align:center; margin-bottom:20px;">
-  <div style="width:100%; max-width:650px; margin:0 auto;">
+<div class="music-container" style="text-align:center; margin-bottom:30px;">
+  <div style="
+    width:100%;
+    max-width:650px;
+    margin:0 auto;
+  ">
     <iframe
-      style="border-radius:12px; width:100%; height:352px;"
+      style="
+        border-radius:12px;
+        width:100%;
+        height:480px; /* taller for more songs */
+        max-width:650px; /* keeps same width as tweets */
+        display:block;
+        margin:0 auto;
+      "
       src="https://open.spotify.com/embed/album/6KdzEUEBoN6nJVFHIMqw7b?utm_source=generator"
       frameborder="0"
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
@@ -19,7 +29,6 @@ nav_order: 4
     </iframe>
   </div>
 </div>
-
 
 <!-- Tweets Section -->
 <div class="tweets" style="display:flex; flex-direction:column; align-items:center; gap:20px; margin:0 auto;">
