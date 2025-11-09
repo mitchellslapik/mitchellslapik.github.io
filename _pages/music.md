@@ -3,7 +3,7 @@ layout: page
 permalink: /music/
 title: music
 nav: true
-nav_order:
+nav_order: 4
 ---
 
 <!-- Music Section -->
