@@ -9,9 +9,9 @@ nav_order: 4
 
 <!-- Music Section -->
 <div class="music-container" style="text-align:center; margin-bottom:20px;">
-  <div style="position:relative; width:100%; max-width:650px; margin:0 auto; padding-top:100%; overflow:hidden; border-radius:12px;">
+  <div style="width:100%; max-width:650px; margin:0 auto;">
     <iframe
-      style="position:absolute; top:0; left:0; width:100%; height:100%; border-radius:12px;"
+      style="border-radius:12px; width:100%; height:352px;"
       src="https://open.spotify.com/embed/album/6KdzEUEBoN6nJVFHIMqw7b?utm_source=generator"
       frameborder="0"
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
