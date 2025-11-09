@@ -6,18 +6,20 @@ nav: true
 nav_order: 4
 ---
 
+
 <!-- Music Section -->
 <div class="music-container" style="text-align:center; margin-bottom:20px;">
-  <div style="position:relative; padding-bottom:80%; height:0; overflow:hidden; max-width:100%;">
-    <iframe style="position:absolute; top:0; left:0; width:100%; height:100%; border-radius:12px;"
-            src="https://open.spotify.com/embed/album/6KdzEUEBoN6nJVFHIMqw7b?utm_source=generator"
-            frameborder="0"
-            allowfullscreen
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy">
+  <div style="position:relative; width:100%; max-width:650px; margin:0 auto; padding-top:100%; overflow:hidden; border-radius:12px;">
+    <iframe
+      style="position:absolute; top:0; left:0; width:100%; height:100%; border-radius:12px;"
+      src="https://open.spotify.com/embed/album/6KdzEUEBoN6nJVFHIMqw7b?utm_source=generator"
+      frameborder="0"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy">
     </iframe>
   </div>
 </div>
+
 
 <!-- Tweets Section -->
 <div class="tweets" style="display:flex; flex-direction:column; align-items:center; gap:20px; margin:0 auto;">
