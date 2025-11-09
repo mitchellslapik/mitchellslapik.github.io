@@ -188,7 +188,8 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
-
+  - jekyll-redirect-from
+  
 # Sitemap settings
 defaults:
   - scope:
