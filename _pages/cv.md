@@ -11,12 +11,12 @@ nav_order: 5
 <head>
   <meta charset="utf-8">
   <title>Redirecting to CV PDF...</title>
-  <meta http-equiv="refresh" content="0; url=/assets/pdfs/slapik | cv.pdf">
-  <link rel="canonical" href="/assets/pdfs/slapik | cv.pdf">
+  <meta http-equiv="refresh" content="0; url=/assets/pdf/slapik | cv.pdf">
+  <link rel="canonical" href="/assets/pdf/slapik | cv.pdf">
 </head>
 <body>
   <p>If you are not redirected automatically,
-     <a href="/assets/pdfs/slapik | cv.pdf" target="_blank" rel="noopener noreferrer">
+     <a href="/assets/pdf/slapik | cv.pdf" target="_blank" rel="noopener noreferrer">
      click here to view the CV.</a></p>
 </body>
 </html>
