@@ -47,7 +47,7 @@ horizontal: false
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 40px; /* same spacing style as music section */
+    gap: 20px; /* same spacing style as music section */
     margin: 0 auto;
     max-width: 650px;
     padding: 20px;
