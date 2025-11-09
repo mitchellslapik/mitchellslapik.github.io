@@ -7,7 +7,7 @@ nav_order: 4
 ---
 
 <!-- Music Section -->
-<div class="music-container" style="text-align:center; margin-bottom:40px;">
+<div class="music-container" style="text-align:center; margin-bottom:20px;">
   <iframe style="border-radius:12px"
           src="https://open.spotify.com/embed/album/6KdzEUEBoN6nJVFHIMqw7b?utm_source=generator"
           width="550"
@@ -20,7 +20,7 @@ nav_order: 4
 </div>
 
 <!-- Tweets Section -->
-<div class="tweets" style="display:flex; flex-direction:column; align-items:center; gap:30px; margin:0 auto;">
+<div class="tweets" style="display:flex; flex-direction:column; align-items:center; gap:20px; margin:0 auto;">
   <div style="max-width:650px; width:100%; display:flex; justify-content:center;">
     <blockquote class="twitter-tweet" style="margin:auto;">
       <p lang="en" dir="ltr">
