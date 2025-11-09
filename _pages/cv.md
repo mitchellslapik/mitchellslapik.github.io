@@ -11,12 +11,12 @@ nav_order: 5
 <head>
   <meta charset="utf-8">
   <title>Redirecting to CV PDF...</title>
-  <meta http-equiv="refresh" content="0; url=/assets/pdf/cv.pdf">
-  <link rel="canonical" href="/assets/pdf/cv.pdf">
+  <meta http-equiv="refresh" content="0; url=assets/pdf/cv.pdf">
+  <link rel="canonical" href="assets/pdf/cv.pdf">
 </head>
 <body>
   <p>If you are not redirected automatically,
-     <a href="/assets/pdf/cv.pdf" target="_blank" rel="noopener noreferrer">
+     <a href="assets/pdf/cv.pdf" target="_blank" rel="noopener noreferrer">
      click here to view the CV.</a></p>
 </body>
 </html>
