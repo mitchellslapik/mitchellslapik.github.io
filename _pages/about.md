@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: about
 permalink: /
 subtitle:  MD/PhD Candidate & NIH Fellow @ McGovern Medical School
