@@ -9,8 +9,8 @@ display_categories: [science, other fun]
 horizontal: false
 ---
 
-<!-- Tweets Section -->
-<div class="tweet-container">
+<!-- Tweets Section (regular embeds) -->
+<div class="tweet-wrap">
   <blockquote class="twitter-tweet">
     <p lang="en" dir="ltr">
       According to dynamical systems, psychiatric disorders can be seen as energy landscapes with peaks and valleys. OCD has deep valleys where neural activity gets stuck, while schizophrenia has shallow valleys that let neural activity roam too freely, connecting unrelated ideas.
@@ -39,38 +39,16 @@ horizontal: false
   </blockquote>
 </div>
 
-<!-- Load Twitter embed script -->
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <style>
-  .tweet-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
+  /* Only center the embeds; do not restyle them */
+  .tweet-wrap {
+    max-width: 650px;
     margin: 0 auto;
-    max-width: 750px;
-    padding: 20px;
+    padding: 0 10px;
   }
-
-  /* Center each tweet */
-  .twitter-tweet {
+  .tweet-wrap .twitter-tweet {
     margin: 0 auto !important;
-  }
-
-  /* Light/Dark mode compatibility */
-  html[data-theme='dark'] .twitter-tweet {
-    background-color: #1e1e1e !important;
-    color: #eaeaea !important;
-    border-radius: 10px;
-    padding: 10px;
-  }
-
-  html[data-theme='light'] .twitter-tweet {
-    background-color: #ffffff !important;
-    color: #000000 !important;
-    border-radius: 10px;
-    padding: 10px;
   }
 </style>
