@@ -2,7 +2,6 @@
 layout: page
 permalink: /music/
 title: music
-description: It is amazing what you can accomplish if you do not care who gets the credit. - Harry Truman
 nav: true
 nav_order:
 ---
