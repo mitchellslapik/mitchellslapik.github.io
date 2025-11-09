@@ -20,4 +20,4 @@ Originally from Austin, I studied philosophy at <a href="https://www.swarthmore.
 
 Then, I came to the <a href="https://gsbs.uth.edu/mdphd/">Medical Scientist Training Program</a> at UT, where I have been supported by the NIH through a <a href="https://researchtraining.nih.gov/programs/fellowships/F30">National Research Service Award</a> and a <a href="https://gsbs.uth.edu/ccts-t32/">Translational and Clinical Science Predoctoral Fellowship</a>. 
 
-Ultimately, I hope to use computational neuroscience to better understand and treat psychiatric disorders. Find more information below:
+Ultimately, I hope to use computational neuroscience to better understand and treat psychiatric disorders.
