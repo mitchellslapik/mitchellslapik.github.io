@@ -8,15 +8,15 @@ nav_order: 4
 
 <!-- Music Section -->
 <div class="music-container" style="text-align:center; margin-bottom:20px;">
-  <iframe style="border-radius:12px"
-          src="https://open.spotify.com/embed/album/6KdzEUEBoN6nJVFHIMqw7b?utm_source=generator"
-          width="550"
-          height="400"
-          frameborder="0"
-          allowfullscreen
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy">
-  </iframe>
+  <div style="position:relative; padding-bottom:80%; height:0; overflow:hidden; max-width:100%;">
+    <iframe style="position:absolute; top:0; left:0; width:100%; height:100%; border-radius:12px;"
+            src="https://open.spotify.com/embed/album/6KdzEUEBoN6nJVFHIMqw7b?utm_source=generator"
+            frameborder="0"
+            allowfullscreen
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy">
+    </iframe>
+  </div>
 </div>
 
 <!-- Tweets Section -->
