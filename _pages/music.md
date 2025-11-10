@@ -17,7 +17,7 @@ nav_order: 4
       style="
         border-radius:12px;
         width:100%;
-        height:400px; /* taller for more songs */
+        height:450px; /* taller for more songs */
         max-width:650px; /* keeps same width as tweets */
         display:block;
         margin:0 auto;
