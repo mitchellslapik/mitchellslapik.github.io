@@ -10,7 +10,7 @@ nav_order: 4
 <div class="music-container" style="text-align:center; margin-bottom:30px;">
   <div style="
     width:100%;
-    max-width:650px;
+    max-width:520px;
     margin:0 auto;
   ">
     <iframe
