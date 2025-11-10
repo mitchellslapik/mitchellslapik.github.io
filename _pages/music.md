@@ -10,14 +10,14 @@ nav_order: 4
 <div class="music-container" style="text-align:center; margin-bottom:30px;">
   <div style="
     width:100%;
-    max-width:520px;
+    max-width:550px;
     margin:0 auto;
   ">
     <iframe
       style="
         border-radius:12px;
         width:100%;
-        height:480px; /* taller for more songs */
+        height:400px; /* taller for more songs */
         max-width:650px; /* keeps same width as tweets */
         display:block;
         margin:0 auto;
