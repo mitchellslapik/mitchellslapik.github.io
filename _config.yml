@@ -118,7 +118,7 @@ pagination:
   enabled: false
 
 # Comments
-disqus_shortname: martinbulla # put your disqus shortname
+disqus_shortname: mitchellslapik # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -228,8 +228,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: Bulla
-  first_name: [Martin, M., M]
+  last_name: Slapik
+  first_name: [Mitchell]
 
   style: apa
   locale: en
