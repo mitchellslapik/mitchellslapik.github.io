@@ -79,11 +79,13 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
-      - name: Install and Build 🔧
+      - name: Install dependencies
         run: |
-          pip3 install --upgrade jupyter
+          bundle install
+      - name: Build site 🔧
+        run: |
           export JEKYLL_ENV=production
-          bundle exec jekyll build
+          bundle exec jekyll build --trace
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
