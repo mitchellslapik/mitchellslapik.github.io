@@ -20,8 +20,6 @@ horizontal: false
     <a href="https://twitter.com/mslapik/status/1860522739234132296">November 24, 2024</a>
   </blockquote>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Predictive coding frames autism and schizophrenia as imbalances in top-down vs. bottom-up processing. Autism may favor bottom-up sensory input, leading to a focus on details and sensory overload. Schizophrenia may favor top-down beliefs, leading to hallucinations and delusions. <a href="https://t.co/LAwhmpHfan">pic.twitter.com/LAwhmpHfan</a></p>&mdash; Mitchell B Slapik (@mslapik) <a href="https://twitter.com/mslapik/status/2035510203328733429?ref_src=twsrc%5Etfw">March 22, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">As random connections are added to a network, a giant connected component suddenly appears. This phase transition shapes connectivity in many complex systems from brain networks to ecosystems to power grids. <a href="https://t.co/21fxk0PhOC">pic.twitter.com/21fxk0PhOC</a></p>&mdash; Mitchell B Slapik (@mslapik) <a href="https://twitter.com/mslapik/status/2023117344281600048?ref_src=twsrc%5Etfw">February 15, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
   <blockquote class="twitter-tweet">
