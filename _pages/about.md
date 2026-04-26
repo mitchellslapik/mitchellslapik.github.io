@@ -18,4 +18,4 @@ social: false  # includes social icons at the bottom of the page
 
 <p>My dissertation, "Vision: More than Meets the Eye," investigates parallels between biological and artificial intelligence in the visual system. Before my PhD, I studied philosophy at <a href="https://www.swarthmore.edu/">Swarthmore College</a> and spent three years at <a href="https://www.jhu.edu/">Johns Hopkins</a> studying how the motor system contributes to cognition. My work has been published in <em>Neural Computation</em>, <em>Journal of Vision</em>, and <em>Cerebellum</em>, with an additional paper under review at <em>Nature Neuroscience</em>.</p>
 
-<p>Currently, I am applying to research-track psychiatry residency programs to continue this interdisciplinary work at the boundary between the mind, brain, and clinical care.</p>
+<p>Currently, I am applying to research-track psychiatry residency programs to continue this urgent work at the boundary between the mind, brain, and clinical care.</p>
