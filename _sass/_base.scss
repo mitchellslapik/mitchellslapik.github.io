@@ -115,6 +115,14 @@ blockquote {
       p { display: block; }
     }
   }
+
+  // Prevent text from wrapping under the profile photo
+  .post.about > .row,
+  .post-content > .row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
 }
 
 .post-description {
