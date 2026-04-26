@@ -14,11 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_light | append: '.css' }}" media="none" id="highlight_theme_light" />
 
     <!-- Styles -->
-    {% if site.icon.size < 3 %}
-    <link rel="icon" type="image/x-icon" ref="{{ site.icon | prepend: '/assets/img/favicon.ico'}}">
-    {% elsif site.icon != blank %}
-    <link rel="shortcut icon" type="image/x-icon" href="{{ site.icon | prepend: '/assets/img/favicon.ico'}}"/>
-    {% endif %}
+    <link rel="icon" type="image/x-icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
     
