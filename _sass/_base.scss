@@ -115,13 +115,20 @@ blockquote {
       p { display: block; }
     }
   }
+}
 
-  // Prevent text from wrapping under the profile photo
-  .post.about > .row,
-  .post-content > .row {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: flex-start;
+// Prevent text from wrapping under the floated profile photo
+@media (min-width: 576px) {
+  .profile.float-right {
+    shape-outside: inset(0);
+  }
+
+  // Force the about-page text to start a new block context
+  // that doesn't wrap around the floated photo
+  .profile.float-right ~ p,
+  .profile.float-right + p,
+  .profile.float-right ~ div {
+    overflow: hidden;
   }
 }
 
