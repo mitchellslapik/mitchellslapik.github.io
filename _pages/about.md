@@ -18,4 +18,4 @@ social: false  # includes social icons at the bottom of the page
 
 <p>Before my doctoral training, I studied philosophy at <a href="https://www.swarthmore.edu/">Swarthmore College</a> and spent three years at <a href="https://www.jhu.edu/">Johns Hopkins</a> investigating how the motor system shapes cognition. This trajectory from philosophy to clinical neuroscience to computational modeling reflects a sustained interest in understanding the mind through quantitative frameworks.</p>
 
-<p>I am applying to research-track psychiatry residency programs to develop computational tools that improve the diagnosis and treatment of psychiatric disorders.</p>
+<p>I am applying to research-track psychiatry residency programs to develop computational approaches that advance the diagnosis and treatment of psychiatric disorders.</p>
