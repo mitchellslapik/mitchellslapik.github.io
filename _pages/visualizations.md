@@ -20,16 +20,10 @@ horizontal: false
     <a href="https://twitter.com/mslapik/status/1860522739234132296">November 24, 2024</a>
   </blockquote>
 
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">According to Marvin Minsky, consciousness and free will arise from incomplete self-models. We don’t model the machinery that constructs perception, so experience feels nonphysical. We don’t model the machinery that produces decisions, so choice feels free. <a href="https://t.co/QNFaYMMR2w">pic.twitter.com/QNFaYMMR2w</a></p>&mdash; Mitchell B Slapik (@mslapik) <a href="https://x.com/mslapik/status/2092977825955414419?ref_src=twsrc%5Etfw">August 27, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">As random connections are added to a network, a giant connected component suddenly appears. This phase transition shapes connectivity in many complex systems from brain networks to ecosystems to power grids. <a href="https://t.co/21fxk0PhOC">pic.twitter.com/21fxk0PhOC</a></p>&mdash; Mitchell B Slapik (@mslapik) <a href="https://twitter.com/mslapik/status/2023117344281600048?ref_src=twsrc%5Etfw">February 15, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">
-      Motor cortex generates outputs while keeping track of its place in a sequence. To do this, it must avoid intersections, such as the center of a figure-8, where it could get off-track. A majority of motor cortex prevents these intersections, rather than encoding motor variables.
-      <a href="https://t.co/mJ9DkkF5jg">pic.twitter.com/mJ9DkkF5jg</a>
-    </p>
-    — Mitchell B. Slapik (@mslapik)
-    <a href="https://twitter.com/mslapik/status/1845169864601690564">October 12, 2024</a>
-  </blockquote>
 
 
 
