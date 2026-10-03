@@ -7,7 +7,7 @@ subtitle: MD/PhD Candidate | Computational Psychiatry | Systems Neuroscience | N
 profile:
   align: right
   image: headshot.jpg
-  image_circular: true
+  image_circular: false
   address: >
 
 news: false
