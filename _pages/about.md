@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: MD/PhD Candidate | Computational Psychiatry | Systems Neuroscience | NIH F30 Fellow
+subtitle: MD/PhD Candidate | Neuroscience PhD | NIH F30 Fellow | Computational Psychiatry
+
 
 profile:
   align: right
