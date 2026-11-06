@@ -2,7 +2,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /index.html
 subtitle: MD/PhD Candidate | Neuroscience PhD | NIH F30 Fellow | Computational Psychiatry
 
 profile:
