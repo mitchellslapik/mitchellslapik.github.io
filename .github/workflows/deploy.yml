@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-24.04
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Ruby
@@ -25,68 +25,32 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
-      - name: Build Jekyll website
+      - name: Build site
         env:
           JEKYLL_ENV: production
         run: |
           bundle exec jekyll build --trace
 
-      - name: Diagnose homepage
-        run: |
-          echo "=== Generated homepage ==="
-          ls -lah _site/index.html || true
-
-          echo ""
-          echo "=== Generated HTML files ==="
-          find _site -name "*.html" | head -40
-
-          echo ""
-          echo "=== Search for biography ==="
-          grep -rl "MD/PhD candidate" _site --include="*.html" || true
-
-          echo ""
-          echo "=== Check About source ==="
-          ls -lah _pages/about.md
-          head -25 _pages/about.md
-
-          echo ""
-          echo "=== Check for conflicting index files ==="
-          find . -maxdepth 2 \
-            \( -name "index.md" -o -name "index.html" \) \
-            -not -path "./_site/*" -print
-
-          echo ""
-          echo "=== Inspect generated homepage ==="
-          if [ -f _site/index.html ]; then
-            head -c 3000 _site/index.html
-          else
-            echo "ERROR: _site/index.html does not exist"
-          fi
-
-          echo ""
-          echo "=== Check Jekyll configuration ==="
-          grep -n "include:" _config.yml || true
-          grep -n "_pages" _config.yml || true
-
       - name: Verify homepage
         run: |
-          if [ ! -s _site/index.html ]; then
-            echo "::error::Jekyll did not generate a nonempty homepage."
+          test -s _site/index.html
+
+          if ! grep -q "I am an MD/PhD candidate" _site/index.html; then
+            echo "::error::Homepage biography is missing."
             exit 1
           fi
 
-          if ! grep -q "MD/PhD candidate" _site/index.html; then
-            echo "::error::Homepage exists but biography is missing."
+          if ! grep -q "In psychiatry" _site/index.html; then
+            echo "::error::Psychiatry paragraph is missing."
             exit 1
           fi
 
-          echo "Homepage verified successfully."
+          echo "Homepage content verified."
 
-      - name: Prevent additional Jekyll processing
+      - name: Prevent second Jekyll build
         run: touch _site/.nojekyll
 
-      - name: Deploy website
-        if: false
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
