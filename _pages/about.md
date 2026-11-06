@@ -20,11 +20,7 @@ I am an MD/PhD candidate at <a href="https://gsbs.uth.edu/mdphd/">McGovern Medic
 </p>
 
 <p>
-During my PhD in Valentin Dragoi's laboratory, I used large-scale electrophysiology in nonhuman primates to study how behavioral state modulates communication between visual and prefrontal cortex, in work accepted in principle at <em>Nature Neuroscience</em>. I have also developed computational models of vision, with publications in <em>Neural Computation</em> and the <em>Journal of Vision</em>. My research has been supported by <a href="https://researchtraining.nih.gov/programs/fellowships/F30">NIH F30</a> and <a href="https://www.uth.edu/ccts/education-training/tl1-program">TL1</a> fellowships.
-</p>
-
-<p>
-Before medicine, I studied philosophy in the Honors Program at <a href="https://www.swarthmore.edu/">Swarthmore College</a> and the neuropsychiatric consequences of cerebellar disease at <a href="https://www.jhu.edu/">Johns Hopkins University</a>.
+During my PhD in Valentin Dragoi's laboratory, I used large-scale electrophysiology in nonhuman primates to study how behavioral state modulates communication between visual and prefrontal cortex, in work accepted in principle at <em>Nature Neuroscience</em>. I have also developed computational models of vision, with publications in <em>Neural Computation</em> and the <em>Journal of Vision</em>. My research has been supported by <a href="https://researchtraining.nih.gov/programs/fellowships/F30">NIH F30</a> and <a href="https://www.uth.edu/ccts/education-training/tl1-program">TL1</a> fellowships. Before medicine, I studied philosophy in the Honors Program at <a href="https://www.swarthmore.edu/">Swarthmore College</a> and the neuropsychiatric consequences of cerebellar disease at <a href="https://www.jhu.edu/">Johns Hopkins University</a>.
 </p>
 
 <p>
