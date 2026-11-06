@@ -1,9 +1,9 @@
+
 ---
 layout: about
 title: about
 permalink: /
 subtitle: MD/PhD Candidate | Neuroscience PhD | NIH F30 Fellow | Computational Psychiatry
-
 
 profile:
   align: right
@@ -17,17 +17,17 @@ social: false
 ---
 
 <p>
-I am an MD/PhD candidate at <a href="https://gsbs.uth.edu/mdphd/">McGovern Medical School</a> and a systems and computational neuroscientist studying how patterns of neural activity shape behavior. I hope to use the same tools to understand psychiatric illness.
+I am an MD/PhD candidate at <a href="https://gsbs.uth.edu/mdphd/">McGovern Medical School</a> and a systems and computational neuroscientist studying how patterns of neural activity give rise to behavior. I want to bring these approaches to understanding psychiatric illness.
 </p>
 
 <p>
-During my PhD in Valentin Dragoi's laboratory, I used large-scale electrophysiology in nonhuman primates to study how behavioral state changes neural representation and communication between visual and prefrontal cortex. I have also studied biological and artificial neural representations using computational models and human 7-T fMRI. My work has appeared in <em>Neural Computation</em> and <em>Journal of Vision</em>, and a manuscript from my PhD has been accepted in principle at <em>Nature Neuroscience</em>. Before my PhD, I studied the cognitive and neuropsychiatric manifestations of cerebellar ataxia at <a href="https://www.jhu.edu/">Johns Hopkins University</a>.
+During my PhD in Valentin Dragoi's laboratory, I used large-scale electrophysiology in nonhuman primates to study how behavioral state modulates communication between visual and prefrontal cortex, in work accepted in principle at <em>Nature Neuroscience</em>. I have also developed computational models of vision, with publications in <em>Neural Computation</em> and the <em>Journal of Vision</em>. My research has been supported by <a href="https://researchtraining.nih.gov/programs/fellowships/F30">NIH F30</a> and <a href="https://www.uth.edu/ccts/education-training/tl1-program">TL1</a> fellowships.
 </p>
 
 <p>
-I now want to bring systems and computational neuroscience to psychiatry. Patients who share a diagnosis can follow different courses and respond differently to treatment. A score tells you where a patient is, not how they got there. I am interested in understanding those trajectories: what changes before relapse, what distinguishes recovery, and why the same treatment helps one patient but not another.
+Before medicine, I studied philosophy in the Honors Program at <a href="https://www.swarthmore.edu/">Swarthmore College</a> and the neuropsychiatric consequences of cerebellar disease at <a href="https://www.jhu.edu/">Johns Hopkins University</a>.
 </p>
 
 <p>
-My research has been supported by a <a href="https://www.uth.edu/ccts/education-training/tl1-program">TL1 Translational and Clinical Science Predoctoral Fellowship</a> and an <a href="https://researchtraining.nih.gov/programs/fellowships/F30">NIH F30 Fellowship</a>. Before medicine, I studied philosophy in the Honors Program at <a href="https://www.swarthmore.edu/">Swarthmore College</a>. It still shapes the questions I ask about the brain and human behavior.
+In psychiatry, I am interested in why patients with similar symptoms can follow different courses and respond differently to treatment. I hope to use computational methods and neuroimaging to better understand these differences and predict clinical outcomes. My current research examines recovery and subsequent vulnerability in longitudinal cohorts.
 </p>
