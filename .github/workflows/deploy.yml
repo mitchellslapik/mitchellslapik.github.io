@@ -1,11 +1,8 @@
+
 name: Deploy site
 
 on:
   push:
-    branches:
-      - master
-      - main
-  pull_request:
     branches:
       - master
       - main
@@ -16,39 +13,45 @@ permissions:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2.2"
-          bundler-cache: false   # IMPORTANT FIX
+          ruby-version: '3.2'
+          bundler-cache: true
 
-      # ⚠️ Removed YAML update — it can break _config.yml
-      # - name: Update _config.yml ⚙️
-      #   ...
-
-      - name: Install dependencies
+      - name: Build site
+        env:
+          JEKYLL_ENV: production
         run: |
-          bundle install
-
-      - name: Build site 🔧
-        run: |
-          export JEKYLL_ENV=production
           bundle exec jekyll build --trace
 
-      # (optional — remove if you want)
-      - name: Purge unused CSS 🧹
+      - name: Verify homepage
         run: |
-          npm install -g purgecss
-          purgecss -c purgecss.config.js
+          test -s _site/index.html
 
-      - name: Deploy 🚀
-        if: github.event_name != 'pull_request'
+          if ! grep -q "I am an MD/PhD candidate" _site/index.html; then
+            echo "::error::Homepage biography is missing."
+            exit 1
+          fi
+
+          if ! grep -q "In psychiatry" _site/index.html; then
+            echo "::error::Psychiatry paragraph is missing."
+            exit 1
+          fi
+
+          echo "Homepage content verified."
+
+      - name: Prevent second Jekyll build
+        run: touch _site/.nojekyll
+
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          branch: gh-pages
           folder: _site
