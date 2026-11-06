@@ -25,8 +25,8 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2.2"
-          bundler-cache: false   # IMPORTANT FIX
+          ruby-version: "3.2"
+          bundler-cache: true   # IMPORTANT FIX
 
       # ⚠️ Removed YAML update — it can break _config.yml
       # - name: Update _config.yml ⚙️
