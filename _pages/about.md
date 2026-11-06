@@ -12,8 +12,8 @@ profile:
   address: >
 
 news: false
-selected_papers: true
-social: true
+selected_papers: false
+social: false
 ---
 
 <p>
