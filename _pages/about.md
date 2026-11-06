@@ -1,4 +1,3 @@
-
 ---
 layout: about
 title: about
@@ -12,7 +11,7 @@ profile:
   address: >
 
 news: false
-selected_papers: false
+selected_papers: true
 social: false
 ---
 
