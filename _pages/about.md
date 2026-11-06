@@ -7,7 +7,7 @@ subtitle: MD/PhD Candidate | Neuroscience PhD | NIH F30 Fellow | Computational P
 profile:
   align: right
   image: headshot.jpg
-  image_circular: false
+  image_circular: true
   address: >
 
 news: false
